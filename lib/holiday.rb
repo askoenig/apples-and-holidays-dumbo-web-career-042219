@@ -89,9 +89,9 @@ barbeque_array = []
 
     end
   end
+end
 
 barbeque_array.flatten
-end
 end
 
 
