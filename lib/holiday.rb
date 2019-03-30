@@ -84,6 +84,7 @@ barbeque_array = []
   holiday_hash.each do |season, holidays|
   
     holidays.each do |holiday, supplies|
+      binding.pry
       if supplies.include?("BBQ")
         barbeque_array << holiday
 
